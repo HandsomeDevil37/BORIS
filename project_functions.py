@@ -363,7 +363,7 @@ def extract_observed_subjects(pj, selected_observations):
     return list(set(observed_subjects))
 
 
-def open_project_json(projectFileName):
+def open_project_json(projectFileName: str):
     """
     open project json
     
